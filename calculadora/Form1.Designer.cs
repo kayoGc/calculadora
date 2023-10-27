@@ -118,6 +118,7 @@ namespace calculadora
             this.btnMultiplicar.TabIndex = 10;
             this.btnMultiplicar.Text = "X";
             this.btnMultiplicar.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
             // 
             // btnDividir
             // 
@@ -128,6 +129,7 @@ namespace calculadora
             this.btnDividir.TabIndex = 11;
             this.btnDividir.Text = "÷";
             this.btnDividir.UseVisualStyleBackColor = true;
+            this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
             // 
             // Form1
             // 

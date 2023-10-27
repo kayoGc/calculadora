@@ -79,5 +79,23 @@ namespace calculadora
         {
 
         }
+
+        private void btnMultiplicar_Click(object sender, EventArgs e)
+        {
+            double n1 = Convert.ToDouble(num1.Text);
+            double n2 = Convert.ToDouble(num2.Text);
+            double resultado = n1 * n2;
+
+            lblResult.Text = resultado.ToString("F2");
+        }
+
+        private void btnDividir_Click(object sender, EventArgs e)
+        {
+            double n1 = Convert.ToDouble(num1.Text);
+            double n2 = Convert.ToDouble(num2.Text);
+            double resultado = n1 / n2;
+
+            lblResult.Text = resultado.ToString("F2");
+        }
     }
 }
